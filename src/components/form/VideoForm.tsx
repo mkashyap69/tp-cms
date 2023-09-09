@@ -232,9 +232,10 @@ function VideoForm(props: {
                   />
                 ) : (
                   <Image
-                    src={'PLACEHOLDER_IMAGE'}
+                    src={'/PLACEHOLDER_IMAGE'}
                     className="thumbnail"
                     height={100}
+                    width={100}
                     alt="asset"
                   />
                 )}
@@ -255,9 +256,10 @@ function VideoForm(props: {
                 cover={
                   <>
                     <Image
-                      src={thumbnail || 'DEFAULT_CARD_IMAGE'}
+                      src={thumbnail || '/DEFAULT_CARD_IMAGE'}
                       className="thumbnail"
                       height={100}
+                      width={100}
                       alt="asset"
                     />
                   </>

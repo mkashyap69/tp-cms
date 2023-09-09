@@ -113,8 +113,10 @@ function AddEditTextQuestionForm(props: {
               cover={
                 <Image
                   className="thumbnail"
-                  src={'DEFAULT_BANNER_AUDIO'}
+                  src={'/DEFAULT_BANNER_AUDIO'}
                   alt="audio"
+                  width={100}
+                  height={100}
                 />
               }
               style={{
